@@ -1,0 +1,2 @@
+# MoodLog
+Mood tracking application
