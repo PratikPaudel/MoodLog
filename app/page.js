@@ -1,12 +1,10 @@
-import React from "react";
-import DashboardPage from "./dashboard/page.js";
-import {Main} from "./components/Main.js";
-import Hero from "@/app/components/Hero";
+import Hero from "@/components/Hero";
+import Main from "@/components/Main";
+
 export default function HomePage() {
-  return (
-      <Main> 
-          <Hero/>
-          <DashboardPage />
-      </Main>
-  );
+    return (
+        <Main className="">
+            <Hero />
+        </Main>
+    );
 }
