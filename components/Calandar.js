@@ -1,4 +1,6 @@
 ﻿import {Roboto} from "next/font/google";
+import { baseRating, gradients } from '@/utils'
+
 const roboto = Roboto({
     weight: '400',
     subsets: ['latin'],
@@ -24,25 +26,13 @@ export default function Calandar() {
     const dayList = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
     return (
         <div className='flex flex-col gap-2'>
-            {/* Month navigation */}
             <div className='grid grid-cols-5 gap-4'>
-                <button>{/* Left arrow */}</button>
-                <p className={'text-center col-span-3 capitalized whitespace-nowrap textGradient ' + fugaz.className}>{/* Month and Year */}</p>
-                <button>{/* Right arrow */}</button>
+                <button className='mr-auto text-indigo-400 text-lg sm:text-xl duration-200 hover:opacity-60'><i className="fa-solid fa-circle-chevron-left"></i></button>
+                <p className={'text-center col-span-3 capitalized whitespace-nowrap textGradient ' + roboto.className}></p>
+                <button className='ml-auto text-indigo-400 text-lg sm:text-xl duration-200 hover:opacity-60'><i className="fa-solid fa-circle-chevron-right"></i></button>
             </div>
-
-            {/* Calendar grid */}
             <div className='flex flex-col overflow-hidden gap-1 py-4 sm:py-6 md:py-10'>
-                {/* Rows of days */}
-                {[/* Array of rows */].map((rowIndex) => (
-                    <div key={rowIndex} className='grid grid-cols-7 gap-1'>
-                        {dayList.map((dayOfWeek, dayOfWeekIndex) => {
-                            // Render day cell
-                            return <div key={dayOfWeekIndex}>{/* Day number and styles */}</div>
-                        })}
-                    </div>
-                ))}
-            </div>
-        </div>
+   return (
+    <p> wip </p>
     )
 }
