@@ -4,6 +4,9 @@
     blue: ['#ccfffa', '#9afefe', '#66f1fc', '#41dffa', '#07c2f7', '#0497d4', '#0171b1', '#02518e', '#003a76',],
     yellow: ['#fff8db', '#fff0b8', '#ffe495', '#ffd97b', '#ffc84f', '#dba339', '#b78127', '#936118', '#7a4b10',],
     pink: ['#ffd8f2', '#ffb1ea', '#ff8aea', '#ff6df1', '#ff3dfe', '#cd2ddb', '#9d1fb7', '#731493', '#540b7a',],
+    calmingBlue: ['#e0f7fa', '#b2ebf2', '#80deea', '#4dd0e1', '#26c6da', '#00bcd4', '#00acc1', '#0097a7', '#00838f'],
+    sereneGreen: ['#e8f5e9', '#c8e6c9', '#a5d6a7', '#81c784', '#66bb6a', '#4caf50', '#43a047', '#388e3c', '#2c6b2f'],
+    orange: ['#ffe5b4', '#ffcc80', '#ffb74d', '#ffa726', '#ff9800', '#fb8c00', '#f57c00', '#ef6c00', '#e65100',],
 }
 
 export const baseRating = {
