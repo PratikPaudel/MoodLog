@@ -1,19 +1,20 @@
-import {Open_Sans } from "next/font/google";
+import { Roboto, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
-import { Roboto } from 'next/font/google'
-import {AuthProvider} from "@/context/AuthContext";
+import { AuthProvider } from "@/context/AuthContext";
+import Head from "./head";
+import Logout from "@/components/Logout";
 
+const opensans = Open_Sans({ subsets: ["latin"] });
 const roboto = Roboto({
     weight: '400',
     subsets: ['latin'],
     display: 'swap',
-})
-const opensans = Open_Sans({ subsets: ["latin"] });
+});
 
 export const metadata = {
-    title: "MoodLog",
-    description: "Track your mood daily!",
+    title: "Broodl",
+    description: "Track your daily mood every day of the year!",
 };
 
 export default function RootLayout({ children }) {
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
             <Link href={'/'}>
                 <h1 className={'text-base sm:text-lg textGradient ' + roboto.className}>MoodLog</h1>
             </Link>
+            <Logout />
         </header>
     )
 
@@ -33,9 +35,9 @@ export default function RootLayout({ children }) {
 
     return (
         <html lang="en">
+        <Head />
         <AuthProvider>
-            <body
-                className={'w-full max-w-[1000px] mx-auto text-sm sm:text-base min-h-screen flex flex-col text-slate-800  ' + opensans.className}>
+            <body className={'w-full max-w-[1000px] mx-auto text-sm sm:text-base min-h-screen flex flex-col text-slate-800  ' + opensans.className}>
             {header}
             {children}
             {footer}
