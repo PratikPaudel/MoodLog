@@ -2,17 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-.textGradient {
+.textGradient2 {
     background: -webkit-linear-gradient(#4338ca, #818cf8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+.textGradient {
+    background: -webkit-linear-gradient(#ff7e5f, #feb47b); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .purpleShadow {
     box-shadow: 3px 3px 1px 1px lavender;
 }
-
+.calmingBlueShadow {
+    box-shadow: 3px 3px 5px 1px rgba(36, 182, 206, 0.15); 
+}
 .purpleShadow:hover {
     transform: translate(3px, 3px);
     box-shadow: 0px 0px 1px 1px lavender;
+}
+
+.orangeShadow {
+    box-shadow: 3px 3px 1px 1px #ff7e5f; /* New shadow color */
+}
+
+.orangeShadow:hover {
+    transform: translate(3px, 3px);
+    box-shadow: 0px 0px 1px 1px #feb47b; /* New hover shadow color */
+}
+.gradient-text {
+    background: linear-gradient(to right, #e0f7fa, #0097a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.calmingBlue {
+    background-color: #24b6ce;
 }
