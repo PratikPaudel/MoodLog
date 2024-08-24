@@ -13,8 +13,8 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-    title: "Broodl",
-    description: "Track your daily mood every day of the year!",
+    title: "MoodLog",
+    description: "Monitor and reflect on your daily mood throughout the entire year!",
 };
 
 export default function RootLayout({ children }) {
