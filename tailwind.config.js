@@ -12,6 +12,10 @@ module.exports = {
         'serene-sky': '#0097a7',
         'soft-meadow': '#e8f5e9',
         'tranquil-forest': '#2c6b2f',
+        primary: {
+          light: '#4f46e5',
+          dark: '#6366f1',
+        }
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

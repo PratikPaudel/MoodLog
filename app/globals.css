@@ -40,3 +40,24 @@
 .calmingBlue {
     background-color: #24b6ce;
 }
+
+/* Light Theme */
+:root {
+    --background-color: #ffffff;
+    --text-color: #1f2937; /* slate-800 */
+    --primary-color: #4f46e5; /* indigo-500 */
+}
+
+/* Dark Theme */
+.dark {
+    --background-color: #111827; /* gray-900 */
+    --text-color: #f3f4f6; /* slate-100 */
+    --primary-color: #6366f1; /* indigo-400 */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Additional styles... */
