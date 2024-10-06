@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MoodLog
+
+MoodLog is a web application designed to help you monitor and reflect on your daily mood throughout the entire year. It provides a user-friendly interface to log your mood, view past entries, and gain insights into your emotional patterns.
+
+## Features
+
+- **Daily Mood Logging**: Easily log your mood every day with a simple and intuitive interface.
+- **Theme Toggle**: Switch between light and dark themes based on your preference or system settings.
+- **User Authentication**: Secure login and logout functionality to keep your data private.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Font Customization**: Uses Google Fonts for a clean and modern look.
+
+## Technologies Used
+
+- **JavaScript**
+- **React**
+- **Next.js**
+- **Tailwind CSS**
+- **Font Awesome** for icons
+- **Google Fonts** for typography
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js
+- npm (Node Package Manager)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/PratikPaudel/moodlog.git
+    cd moodlog
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-## Learn More
+3. Run the development server:
+    ```bash
+    npm run dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open your browser and navigate to `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Log Mood**: Navigate to the homepage and log your mood for the day.
+- **Toggle Theme**: Use the theme toggle button in the header to switch between light and dark modes.
+- **Logout**: Click the logout button in the header to securely log out of your account.
 
-## Deploy on Vercel
+## Live Site
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Check out the live site at [MoodLog](https://moodlog-chi.vercel.app).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Demo
+
+![MoodLog Demo](public/moodlog_demo.gif)
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Acknowledgements
+
+- Built by Pratik 💛
+- Inspired by the need for better mental health tracking and reflection.
